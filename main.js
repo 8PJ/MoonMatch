@@ -67,17 +67,17 @@ const getMoonDescription = (phase) => {
         case "New Moon":
             return newMoon;
         case "Waxing Crescent Moon":
-            return waningCrescent;
+            return waxingCresent;
         case "First Quarter Moon":
-            return newMoon;
+            return firstQuater;
         case "Waxing Gibbous Moon":
-            return waningCrescent;
+            return waxingGibbous;
         case "Full Moon":
-            return newMoon;
+            return fullMoon;
         case "Waning Gibbous Moon":
-            return waningCrescent;
+            return waningGibbous;
         case "Last Quarter Moon":
-            return newMoon;
+            return lastQuater;
         case "Waning Crescent Moon":
             return waningCrescent;
         default:
